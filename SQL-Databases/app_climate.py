@@ -112,7 +112,6 @@ def tobs():
                     all()
     return jsonify(station_temps)
 
-
 @app.route("/api/v1.0/<start>/<end>")
 def tempst(start,end):
     #Calculate minimun temp, avg temp and max temp for date >= start date. TBD
